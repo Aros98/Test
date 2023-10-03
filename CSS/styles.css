@@ -1,0 +1,57 @@
+
+*{
+  box-sizing: border-box ;
+  margin: 0;
+  padding: 0;
+}
+div.container{
+  border: 5px solid #e60b0b;
+  width: 80%;
+  margin: 0 auto;
+}
+header{
+  background-color: burlywood;
+}
+.hero img{
+  width: 100%;
+}
+
+div.left, div.middle, div.right{
+  border: 3px dotted green;
+  width: 30%;
+}
+
+ 
+
+aside{
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+nav{
+  background-color: dimgray;
+
+}
+
+ul{
+  text-align: center;
+
+}
+li{
+  display: inline-block;
+  width: 150px;
+  border: 2px solid white;
+  line-height: 3em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-variant: small-caps;
+
+}
+
+a{
+  color: aliceblue;
+  text-decoration: none;
+  border: 1px solid red;
+  display: block;
+
+}
